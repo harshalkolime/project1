@@ -1,0 +1,61 @@
+*{ margin:0 ;
+padding:0;
+box-sizing:border-box;
+background: #e7dddd;}
+
+nav{ padding: 20px 10%;
+height: 0vh;
+margin-left: 1%;}
+
+nav ul { display:flex;
+align-items: center;
+}
+
+
+
+nav ul li { list-style: none;
+margin: 20px; 
+/* margin ke parent group i.e nav ul me gap property se bhi same effect hoga */
+font-weight: 500;}
+
+
+
+main{ 
+display:flex;
+align-items: top;
+justify-content: space-around;;
+margin-left: 5%;
+margin-top: 8%;
+
+}
+
+.leftmain{width: 40%;
+margin-left: 9%;
+margin-top: 5%;
+}
+.leftmain h1{ font-size: 55px;}
+.leftmain p{ margin: 2% 0;}
+/* note- margin 10 percent top and bottom and 0 is for left and right play around with the values to know more about it */
+
+.leftmain button{background-color: rgb(112, 169, 112);
+    border: rgb(112, 169, 112);
+border-radius: 5px; 
+color: aliceblue;
+padding: 10px;
+font-weight: 500;
+margin-top: 10%;}
+
+.rightmain{ width: 60%;
+scale: 79%;
+margin-top: -8%; }
+.rightmain div{ margin: 10px;}
+
+
+
+
+
+
+
+
+
+
